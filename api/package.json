@@ -1,0 +1,16 @@
+{
+  "name": "mini_online_market_backend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "@KadochnikovMikhail:registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
