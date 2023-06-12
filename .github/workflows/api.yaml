@@ -22,7 +22,7 @@ jobs:
       - run: |
           cp package.json dist/package.json
           cp README.md dist/README.md
-      - run: npm publish
+      - run: npm publish--registry https://npm.pkg.github.com/
         working-directory: ./api/dist
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
